@@ -1,0 +1,39 @@
+/* Kommentar fra AI: AI laget denne CSS-koden. Alle kommentarene er også skrevet av AI. */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Flex legger navnet og lenkene på en rad, med plass mellom og lik høyde. */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 16px;
+    background-color: #222222;
+}
+
+.lenker {
+    display: flex;
+    gap: 16px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navn {
+    font-weight: bold;
+}
+
+.navbar a:hover,
+.navbar a:focus {
+    text-decoration: underline;
+}
+
+main {
+    padding: 16px;
+}
